@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  height: 100vh;
+  display: flex;
+}
+
+.app .timers {
+  flex: 1;
+  padding: 40px 30px;
+}
+
+.app .tasks {
+  flex: 1;
+  padding: 40px 30px;
+}
+
+.taskSection .task-header {
+  display: flex;
+  align-items: center;
+}
+
+.taskSection .task-header .table-title {
+  flex: 1;
+}
+
+.task-table table {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.task-table table th {
+  text-align: left;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgb(179, 178, 178);
+}
+
+.task-table table thead {
+  padding: 8px;
+  border-bottom: 1px solid rgb(179, 178, 178);
+}
+
+.timers-header {
+  display: flex;
+  align-items: center;
+}
+
+.timers-title {
+  margin-right: 20px;
+}
+
+.timers-header button {
+  margin-right: 10px;
+}
+
+.timers-content ul {
+  list-style: none;
+  width: 70%;
+  padding: 0;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  position: relative;
+  z-index: 1;
+}
+
+.timers-content ul li {
+  padding: 10px;
+  z-index: 2;
+}
+
+.timers-content ul .time-scanner {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  text-align: right;
+  border-bottom: 1px solid red;
+}
+
+.timers-content ul li:nth-child(1) {
+  background: rgb(111, 247, 156);
+}
+
+.timers-content ul li:nth-child(2) {
+  background: rgb(111, 218, 247);
+}
+
+.timers-content ul li:nth-child(3) {
+  background: rgb(154, 247, 111);
+}
+
+.timers-content ul li:nth-child(4) {
+  background: rgb(222, 247, 111);
+}
+
+.timers-content ul li:nth-child(5) {
+  background: rgb(111, 159, 247);
+}
+
+.timers-content ul li:nth-child(6) {
+  background: rgb(247, 111, 140);
+}
+.timers-content ul li:nth-child(7) {
+  background: rgb(225, 251, 213);
+}
+
+.timers-content ul li:nth-child(8) {
+  background: rgb(233, 250, 158);
+}
+
+.timers-content ul li:nth-child(9) {
+  background: rgb(116, 144, 197);
+}
+
+.timers-content ul li:nth-child(10) {
+  background: rgb(255, 93, 128);
+}
